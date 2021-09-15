@@ -717,12 +717,17 @@ body svg {
 		padding: 20px;
 	}
 }
+.popup__success {
+	color: #B25435;
+	text-align: center;
+}
 
 .popup__h2 {
 	text-align: center;
 }
 
-.close-popup {
+.close-popup,
+.close-popup2 {
 	position: absolute;
 	top: 10px;
 	right: 10px;
@@ -731,7 +736,8 @@ body svg {
 	cursor: pointer;
 }
 
-.close-popup:before {
+.close-popup:before,
+.close-popup2:before {
 	content: "";
 	background-color: #fff;
 	position: absolute;
@@ -744,7 +750,8 @@ body svg {
 	        transform: rotate(-45deg);
 }
 
-.close-popup:after {
+.close-popup:after,
+.close-popup2:after {
 	content: "";
 	background-color: #fff;
 	position: absolute;

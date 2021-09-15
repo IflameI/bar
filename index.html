@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>Bar</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.css">
@@ -24,16 +24,16 @@
 			<nav class="header__menu menu">
 				<div class="menu__body">
 					<ul class="menu__list">
-						<li><a href="" class="menu__link">Book a Table</a></li>
-						<li><a href="" class="menu__link">How to find us</a></li>
-						<li><a href="" class="menu__link">Work Hours</a></li>
-						<li><a href="" class="menu__link">Contact</a></li>
+						<li><a href="#book" class="menu__link">Book a Table</a></li>
+						<li><a href="#find" class="menu__link">How to find us</a></li>
+						<li><a href="#work" class="menu__link">Work Hours</a></li>
+						<li><a href="#contact" class="menu__link">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 	</div>
-</header>			<section class="main-content">
+</header>			<section id = 'book' class="main-content">
 			<div class="main-content__item">
 				<h1 class="main-content__title">The United Pub İstanbul</h1>
 				<div class="main-content__location">
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="map">
+			<section id = 'find' class="map">
 				<div class="map__row">
 					<div class="map__column map1">
 						<div class="map__img"><img src="img/ma.png" alt=""></div>
@@ -67,7 +67,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="gallery">
+			<section id='work' class="gallery">
 				<div class="gallery__content">
 					<div class="gallery__row">
 						<div class="gallery__column">
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="contact">
+			<section id = 'contact' class="contact">
 				<div class="container">
 					<div class="contact__content">
 						<div class="contact__row">
@@ -192,7 +192,7 @@
 			</div>
 			<div class="overlay2">
 				<div class="popup">
-					<p>THX</p>
+					<p class = 'popup__success'>Thank you for reservation. A confirmation SMS has been sent to you. If plans change, please make sure to cancel. See you soon!</p>
 					<div class="close-popup2">X</div>
 				</div>
 			</div>
